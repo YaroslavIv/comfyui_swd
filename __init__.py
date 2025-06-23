@@ -6,7 +6,7 @@ class SwDSelector:
         return {
             "required": {
                 "preset": (
-                    ["SwD 2B, 6 steps", "SwD 2B, 4 steps", "SwD 8B, 6 steps", "SwD 8B, 4 steps"],
+                    ["SwD 2B, 6 steps", "SwD 2B, 4 steps", "SwD 8B, 6 steps", "SwD 8B, 4 steps", "SwD FLUX, 4 steps"],
                     {"default": "SwD 2B, 6 steps"},
                 ),
             },
@@ -40,6 +40,11 @@ class SwDSelector:
                 512,
                 "1.25, 1.5, 2.0",
                 [1.0000, 0.8959, 0.7371, 0.6022, 0.0000],
+            ),
+            "SwD FLUX, 4 steps": (
+                512,
+                "1.25, 1.5, 2.0",
+                [1.0000, 0.8956, 0.7363, 0.6007, 0.0000],
             ),
         }
 

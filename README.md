@@ -14,6 +14,7 @@ The **SwD Preset Selector** is a custom node for [ComfyUI](https://github.com/co
   - *SwD 2B, 4 steps*
   - *SwD 8B, 6 steps*
   - *SwD 8B, 4 steps*
+  - *SwD FLUX, 4 steps*
 
 ## Installation
 
