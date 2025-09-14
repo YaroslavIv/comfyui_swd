@@ -1,0 +1,14 @@
+[project]
+name = "swd"
+description = "The SwD Preset Selector is a custom node for ComfyUI that provides a simple way to select predefined SwD configurations."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/YaroslavIv/comfyui_swd"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_swd"
+Icon = ""
